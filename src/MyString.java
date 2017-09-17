@@ -66,7 +66,13 @@ public final class MyString {
 	
 	public static MyString valueOf(int i) {
 		
-		char[] temp = ("" + i).toCharArray();
+		// Math.log10(num) gives the number of digits - 1. Add 1 to get the actual number of digits.
+		char[] temp = new char[(int)(Math.log10(i) + 1)];
+
+		for (int j = temp.length - 1; j >= 0; j--) {
+		    temp[j] = (char) ('0' + (i % 10));
+		    i /= 10;
+		}
 		return new MyString(temp);
 	}
 }

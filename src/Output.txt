@@ -1,0 +1,21 @@
+Microsoft Windows [Version 10.0.15063]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\Bharat's PC>cd C:\Users\Bharat's PC\OneDrive\CISC 3150 OOP\Homeworks\Homework 3\src
+
+C:\Users\Bharat's PC\OneDrive\CISC 3150 OOP\Homeworks\Homework 3\src>javac MyString.java
+
+C:\Users\Bharat's PC\OneDrive\CISC 3150 OOP\Homeworks\Homework 3\src>javac MyStringDriver.java
+
+C:\Users\Bharat's PC\OneDrive\CISC 3150 OOP\Homeworks\Homework 3\src>java MyStringDriver
+pizza.charAt(2): z
+WALTER.length(): 6
+pizza.substring(2,4): izz
+WALTER.toLowerCase(): walter
+pizza.toUpperCase(): PIZZA
+WALTER.equals(pizza)? : false
+pizza.getMyString(): PIZZA
+WALTER.toString(): walter
+MyString.valueOf(747): 747
+
+C:\Users\Bharat's PC\OneDrive\CISC 3150 OOP\Homeworks\Homework 3\src>
